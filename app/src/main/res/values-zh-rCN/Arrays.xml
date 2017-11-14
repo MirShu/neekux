@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mode_name">
+        <item>起 " "" "" "居</item>
+        <item>睡 " "" "" "眠</item>
+        <item>就 " "" "" "餐</item>
+        <item>教 " "" "" "育</item>
+        <item>聚 " "" "" "会</item>
+        <item>爱 " "" "" "情</item>
+        <item>音 " "" "" "乐</item>
+        <item>光 " "" "" "疗</item>
+        <item>最 " "" "" "爱</item>
+    </string-array>
+    <string-array name="mode1_SubMode">
+        <item>阅读</item>
+        <item>休闲</item>
+        <item>健身</item>
+    </string-array>
+    <string-array name="mode2_SubMode">
+        <item>催眠</item>
+        <item>唤醒</item> 
+        <item>夜灯</item>
+    </string-array>
+    <string-array name="mode3_SubMode">
+        <item>温馨</item>
+        <item>热闹</item>
+    </string-array>
+    <string-array name="mode4_SubMode">
+        <item>胎育</item>
+        <item>亲子</item>
+        <item>学习</item>
+    </string-array>
+    <string-array name="mode5_SubMode">
+        <item>优雅</item>
+        <item>热烈</item>
+    </string-array>
+    <string-array name="mode6_SubMode">
+        <item>柔情</item>
+        <item>激情</item>
+    </string-array>
+    <string-array name="mode7_SubMode">
+        <item>歌曲</item>
+        <item>乐曲</item>
+    </string-array>
+    <string-array name="mode8_SubMode">  
+        <item >情绪调节</item>
+        <item >治疗</item>         
+    </string-array>
+    <string-array name="mode9_SubMode"></string-array>
+    <string-array name="alarm_set">
+        <item>"已将闹钟设置为从现在起不到 1 分钟后提醒。"</item>
+        <item>"已将闹钟设置为从现在起%1$s后提醒。"</item>
+        <item>"已将闹钟设置为从现在起 %2$s后提醒。"</item>
+        <item>"已将闹钟设置为从现在起%1$s %2$s后提醒。"</item>
+        <item>"已将闹钟设置为从现在起 %3$s后提醒。"</item>
+        <item>"已将闹钟设置为从现在起 %1$s %3$s后提醒。"</item>
+        <item>"已将闹钟设置为从现在起%2$s %3$s后提醒。"</item>
+        <item>"已将闹钟设置为从现在起 %1$s %2$s %3$s 后提醒。"</item>
+    </string-array>
+    <string-array name="entries_mode_array">
+        <item>开灯</item>
+        <item>关灯</item>
+        <item>起居</item>
+        <item>入睡</item>
+        <item>唤醒</item>
+        <item>就餐</item>
+        <item>聚会</item>
+        <item>爱情</item>
+        <item>音乐</item>
+        <item>光疗</item>
+        <item>最爱</item>
+    </string-array>
+    <string-array name="entryvalues_mode_array">
+        <item>0</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="ampm_array">
+        <item>上午</item>
+        <item>下午</item>
+    </string-array>
+    <string-array name="alarm_tab_array">
+        <item>光曲</item>
+        <item>自选列表</item>
+    </string-array>
+    
+    <string-array name="editmode_tab_array">
+        <item>光曲</item>
+        <item>快捷列表</item>
+        <item>自选列表</item>
+    </string-array>
+    <string-array name="app_name">
+        <item>设置</item>
+        <item>调光盘</item>
+        <item>光曲艺术家</item>
+        <item>光曲商店</item>
+        <item>应用商店</item>
+    </string-array>
+</resources>

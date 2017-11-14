@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:igoo="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_device"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical"
+    tools:context="meekux.grandar.com.meekuxpjxroject.activity.SearchDeviceActivity">
+
+    <meekux.grandar.com.meekuxpjxroject.view.TopView
+        android:id="@+id/right_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        igoo:title="@string/search_device" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/view_size_12dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/search_get_device"
+        android:textColor="@color/blackTextColor"
+        android:textSize="@dimen/text_size_14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:layout_marginLeft="@dimen/margin_12dp"
+        android:layout_marginRight="@dimen/margin_12dp"
+        android:background="@color/lineColor" />
+
+    <ListView
+        android:id="@+id/search_device"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+</LinearLayout>

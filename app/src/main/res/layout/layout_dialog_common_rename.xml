@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:meekux="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/shape_light_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_titl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="编辑"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#f9f9f9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="名称编辑"
+        android:textColor="#666666"
+        android:textSize="@dimen/text_size_16sp" />
+
+    <EditText
+        android:id="@+id/rename_dialog_et_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_layout_edittext_rename"
+        android:hint="@string/tips_input_listname"
+        android:maxLength="16"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/view_size_12dp"
+        android:paddingRight="@dimen/view_size_12dp"
+        android:textColor="#333333"
+        android:textColorHint="#333333"
+        android:textSize="@dimen/text_size_14sp" />
+
+    <LinearLayout
+        android:id="@+id/linratlayoutmydialog"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/rename_dialog_text_cancel"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_cancel"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_17sp"
+            meekux:rd_cornerRadius="5dp" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/rename_dialog_text_confirm"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1"
+            android:background="@drawable/shape_cancel"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_17sp"
+            meekux:rd_cornerRadius="5dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_mye_equipment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:igoo="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <meekux.grandar.com.meekuxpjxroject.view.TopView
+        android:id="@+id/right_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        igoo:title="@string/mydevice" />
+    <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/finish_button"
+                android:gravity="center"
+                android:text="选项" />
+        </RelativeLayout>
+        <android.support.design.widget.TabLayout
+            android:id="@+id/adddevice_view_tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            igoo:tabIndicatorColor="@color/checkColor"
+            igoo:tabSelectedTextColor="@color/checkColor"
+            android:background="@mipmap/music_item_bg"
+            igoo:tabTextColor="@color/white" />
+        <android.support.v4.view.ViewPager
+            android:layout_marginTop="10dp"
+            android:id="@+id/adddevice_view_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_item_bg_shadow"
+            />
+
+</LinearLayout>

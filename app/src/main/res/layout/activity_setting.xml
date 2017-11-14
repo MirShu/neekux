@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:igoo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLove"
+    android:orientation="vertical">
+
+    <meekux.grandar.com.meekuxpjxroject.view.TopView
+        android:id="@+id/right_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        igoo:title="@string/setting" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/shadow_bg_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/setting_view_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shadow_bg_white"
+                    android:drawableRight="@mipmap/icon_foward"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/about"
+                    android:textColor="@color/whiteTitleColor"
+                    android:textSize="@dimen/text_size_16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_width"
+                    android:background="@color/whiteLineColor" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_view_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shadow_bg_white"
+                    android:clickable="true"
+                    android:onClick="update">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="12dp"
+                        android:text="@string/version_update"
+                        android:textColor="@color/whiteTitleColor"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                    <ImageView
+                        android:id="@+id/setting_view_update_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="12dp"
+                        android:src="@mipmap/icon_foward" />
+
+                    <TextView
+                        android:id="@+id/updateversionname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:layout_toLeftOf="@id/setting_view_update_img"
+                        android:gravity="center_vertical"
+                        android:text="@string/version_name"
+                        android:textColor="@color/subTextColor"
+                        android:textSize="@dimen/text_size_15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_width"
+                    android:background="@color/whiteLineColor" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_view_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shadow_bg_white">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center_vertical"
+                        android:paddingRight="12dp"
+                        android:text="@string/cellphone"
+                        android:textColor="@color/subTextColor"
+                        android:textSize="@dimen/text_size_15sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="12dp"
+                        android:text="@string/customer_phone"
+                        android:textColor="@color/whiteTitleColor"
+                        android:textSize="@dimen/text_size_16sp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/shadow_bg_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/setting_view_problem"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shadow_bg_white"
+                    android:drawableRight="@mipmap/icon_foward"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/frequently_questions"
+                    android:textColor="@color/whiteTitleColor"
+                    android:textSize="@dimen/text_size_16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_width"
+                    android:background="@color/whiteLineColor" />
+
+
+                <TextView
+                    android:id="@+id/setting_view_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shadow_bg_white"
+                    android:drawableRight="@mipmap/icon_foward"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/feedback"
+                    android:textColor="@color/whiteTitleColor"
+                    android:textSize="@dimen/text_size_16sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/shadow_bg_white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/setting_view_share"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shadow_bg_white"
+                    android:drawableRight="@mipmap/icon_foward"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/share_friend"
+                    android:textColor="@color/whiteTitleColor"
+                    android:textSize="@dimen/text_size_16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:igoo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <meekux.grandar.com.meekuxpjxroject.view.TopView
+        android:id="@+id/connect_success_topview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        igoo:title="@string/contact_wifi" />
+
+    <RelativeLayout
+        android:id="@+id/contact_view_connecting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <meekux.grandar.com.meekuxpjxroject.view.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ripple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:rb_color="@color/greencolor"
+            app:rb_duration="6000"
+            app:rb_radius="50dp"
+            app:rb_rippleAmount="4"
+            app:rb_scale="6"
+            app:rb_type="fillRipple">
+
+            <ImageView
+                android:id="@+id/centerImage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/search_img" />
+
+            <TextView
+                android:id="@+id/bindtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/centerImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/tips_search"
+                android:textColor="@color/blackTextColor"
+                android:textSize="@dimen/text_size_16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bindtitle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/tips_listen"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size_14sp" />
+        </meekux.grandar.com.meekuxpjxroject.view.RippleBackground>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/contact_view_success"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:src="@mipmap/icon_contact_success" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:text="@string/contact_success"
+            android:textColor="@color/blackTextColor"
+            android:textSize="@dimen/text_size_16sp" />
+
+        <Button
+            style="@style/common_btn_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:onClick="complete"
+            android:text="@string/complete" />
+    </LinearLayout>
+</LinearLayout>

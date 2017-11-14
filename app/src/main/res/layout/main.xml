@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allcontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/music_item_bg">
+
+            <RelativeLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioGroup
+
+                android:id="@+id/main_tab_group"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/signbackground"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/home"
+                    style="@style/tab_button"
+                    android:layout_weight="1.0"
+                    android:checked="true"
+                    android:drawableTop="@mipmap/homepagetrue"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:text="首页" />
+
+                <RadioButton
+                    android:id="@+id/lightcontrol"
+                    style="@style/tab_button"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@mipmap/lightcontrolfalse"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:text="布灯" />
+
+                <RadioButton
+                    android:id="@+id/sensor"
+                    style="@style/tab_button"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@mipmap/sensorfalse"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:text="传感器" />
+
+                <RadioButton
+                    android:id="@+id/music"
+                    style="@style/tab_button"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@mipmap/songlightfalse"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:text="光曲编辑" />
+
+                <RadioButton
+                    android:id="@+id/control"
+                    style="@style/tab_button"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@mipmap/controlfalse"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:text="控制" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lv_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@mipmap/leftbackground"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@mipmap/lefttopview" />
+
+            <RelativeLayout
+                android:id="@+id/personLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp">
+
+                <RelativeLayout
+                    android:id="@+id/persontitlelayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/layout_drawer_view_topimg"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/mytopview" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/loginstate"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/persontitlelayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:paddingTop="12dp"
+                    android:singleLine="true"
+                    android:text="@string/loginand"
+                    android:textColor="@color/whiteTitleColor"
+                    android:textSize="@dimen/text_size_17sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/mainline"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_above="@+id/menu_listview"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="@dimen/margin_12dp"
+                android:background="@color/whiteLineColor" />
+
+            <ListView
+                android:id="@+id/menu_listview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/personLayout"
+                android:cacheColorHint="#00000000"
+                android:divider="@null"
+                android:dividerHeight="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/corp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/corp"
+                android:textColor="@color/subTextColor"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <TextView
+                android:id="@+id/corp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="@string/corpnext"
+                android:textColor="@color/subTextColor"
+                android:textSize="@dimen/text_size_12sp" />
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

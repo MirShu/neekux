@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="action_settings">Settings</string>
+    <string name="label">songlightDB</string>
+    <string name="description">songlightDB_permission</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="connectiong">控制器与灯体互联，请稍候。</string>
+    <string name="red_name">红光</string>
+    <string name="green_name">绿光</string>
+    <string name="blue_name">蓝光</string>
+    <string name="white_name">白光</string>
+    <string name="color_hot_name">色温</string>
+    <string name="lightSong">光曲</string>
+    <string name="lightSongList">光曲列表</string>
+    <string name="lightSongList_name">"光曲列表“<xliff:g id="LIST_NAME">%s</xliff:g>”"</string>
+    <string name="edit_lightSongList_name">"编辑光曲列表“<xliff:g id="LIST_NAME">%s</xliff:g>”"</string>
+    <string name="add_new_playList">添加光曲列表</string>
+    <string name="create_playlist_create_text_prompt">新建光曲列表</string>
+    <string name="create_playlist_hint_text">请输入光曲列表名称：</string>
+    <string name="create_playlist_input_hint_text">名称</string>
+    <string name="create_playlist_create_text">保存</string>
+
+    <string name="alarm_clock">光曲定时设置</string>
+    <string name="default_label">光曲定时</string>
+    <string name="day">1 天</string>
+    <string name="days">"%1$s"天</string>
+    <string name="hour">"1 小时"</string>
+    <string name="hours">"%1$s"小时</string>
+    <string name="minute">"1 分钟"</string>
+    <string name="minutes">"%1$s"分钟</string>
+    <string name="every_day">"每天"</string>
+    <string name="never">一律不</string>
+    <string name="repeat_weekdays">工作日</string>
+    <string name="repeat_everyday">每天</string>
+    <string name="repeat_none">无重复</string>
+    <string name="day_concat">", "</string>
+    <string name="set_alarm">"设置闹钟"</string>
+    <string name="alarm_vibrate">"振动"</string>
+    <string name="alarm_repeat">"重复"</string>
+    <string name="mode">"模式"</string>
+    <string name="time">"时间"</string>
+    <string name="delete_alarm">"删除闹钟"</string>
+    <string name="enable_alarm">"启用闹钟"</string>
+    <string name="disable_alarm">"停用闹钟"</string>
+    <string name="delete_alarm_confirm">"要删除此闹钟吗？"</string>
+    <string name="loading_ringtone">"正在载入铃声..."</string>
+    <string name="silent_alarm_summary">"静音"</string>
+    <string name="add_alarm">"添加定时"</string>
+    <string name="edit_alarm">"编辑定时"</string>
+    <string name="alarm_alert_dismiss_text">"取消"</string>
+    <string name="alarm_alert_snooze_text">"小睡"</string>
+    <string name="alarm_notify_snooze_label">"%1$s"（已暂停）</string>
+    <string name="alarm_notify_snooze_text">已将闹钟设置为"%1$s"后再提醒。触摸可取消</string>
+    <string name="alarm_alert_snooze_set">暂停 "%1$d"分钟。</string>
+    <string name="alarm_notify_text">"暂停或关闭闹钟。"</string>
+    <string name="alarm_alert_alert_silenced">闹钟响铃时长为 "%1$d"分钟。</string>
+    <string name="playSongLight">"播放光曲"</string>
+    <string name="playSongLightList">"播放列表"</string>
+    <string name="inputMacAddressTitle">"请输入灯体mac地址"</string>
+    <!-- DeviceListActivity -->
+    <string name="scanning">正在扫描蓝牙服务...</string>
+    <string name="select_device">选择一个蓝牙设备</string>
+    <string name="none_paired">没有可配对的蓝牙设备</string>
+    <string name="none_found">未发现蓝牙设备</string>
+    <string name="title_paired_devices">可配对的设备</string>
+    <string name="title_other_devices">其他可利用的设备</string>
+    <string name="button_scan">扫描蓝牙设备</string>
+    <string name="please_select">请选择光曲</string>
+    <string name="system_message">IGOO消息</string>
+    <string name="whether_reconnect">互联失败，请重试</string>
+    <string name="bt_reconnect_message">蓝牙连接异常，控制器当前处于省电模式，点击确认键进行重连</string>
+    <string name="wallpaper">墙纸</string>
+    <string name="wallpaper_preview">墙纸预览</string>
+    <string name="wallpaper_set">设定</string>
+    <string name="power_on">开" "" "" "" "灯</string>
+    <string name="power_off">关" "" "" "" "灯</string>
+    <string name="night_light">夜" "" "" "" "灯</string>
+
+    <string name="igoo_message_is_empty">无IGOO消息</string>
+
+    <string name="alarms_is_empty">无闹钟</string>
+    <string name="add_songlight">添加光曲</string>
+    <string name="edit_lightSongList">编辑光曲列表</string>
+    <string name="favorites">最爱</string>
+
+    <string name="connect_success">互联成功</string>
+    <string name="light">"亮度%1$s%%"</string>
+    <string name="volume">"音量%1$s%%"</string>
+    <string name="alarm">定时</string>
+    <string name="only_light">静态</string>
+    <string name="alarm_light_off">关灯</string>
+    <string name="delete_apk_title">删除“%1$s”</string>
+    <string name="delete_apk_message">若删除“%1$s”,其所有数据也将被删除。</string>
+    <string name="songlight_file_error">"光曲格式不正确,不能播放"</string>
+    <string name="cur_mode_is_empty">当前模式下无光曲</string>
+    <string name="waiting">"请稍候。。。"</string>
+    <string name="updating">正在更新</string>
+    <string name="download_crc_error">软件下载失败, 校验出错.</string>
+    <string name="update_error">软件更新失败，请稍后再试。</string>
+    <string name="update_igoo_bin_title">"升级提示"</string>
+    <string name="update_igoo_bin_message">"灯体程序需要升级，请点击确定按钮进行升级。"</string>
+    <string name="new_lightsong">"新"</string>
+
+    <string name="default_alarm_lightsong">"默认光曲"</string>
+    <string name="alarm_confirm">好</string>
+    <string name="web_load_error">点击屏幕 重新加载</string>
+    <string name="connect_smartlamp_body">灯体配对</string>
+    <string name="conn_lamp_body_step1">请将灯体放倒，灯光变为蓝色时，请点击按钮进入下一步.</string>
+    <string name="conn_lamp_body_step2">请稍候，正在搜索可配对的灯体...</string>
+    <string name="conn_lamp_body_step3">请选择如下列表中需要配对的灯体菜单项，进行配对:</string>
+    <string name="conn_lamp_body_step4">请稍候，正在和灯体配对...</string>
+    <string name="conn_lamp_body_step5">灯体配对成功。</string>
+    <string name="conn_lamp_body_step6">未搜索到可配对的灯体，点击按钮重新进行灯体配对。</string>
+    <string name="restart">"重新开始"</string>
+
+    <string name="bright_and_volume_settings_title">"亮度和音量"</string>
+    <string name="manual_set">"手动设置"</string>
+
+    <string name="app_name">Meekux智能</string>
+    <string name="my">我的</string>
+    <string name="open">开</string>
+    <string name="close">关</string>
+    <string name="tow_exit">再按一次退出应用</string>
+    <string name="entry">立即进入</string>
+    <string name="regist_login">注册/登录</string>
+    <string name="myeqiu">我的设备</string>
+    <string name="mywalt">我的钱包</string>
+    <string name="message">我的消息</string>
+    <string name="corp">版权所有 © 2017 IGOO Ltd.保留所有权利</string>
+    <string name="corpnext">沪ICP备 14052640号-1</string>
+
+    <!--注册登录-->
+    <string name="errorquickcode">验证码错误</string>
+    <string name="loginPhone">手机号</string>
+    <string name="loginPassword">请输入6-12位字符</string>
+    <string name="forgetPassword">忘记密码？</string>
+    <string name="loginButton">登录</string>
+    <string name="registerButton">注册</string>
+    <string name="checkPhone">请输入手机号</string>
+    <string name="errorPhone">手机号不正确</string>
+    <string name="checkPassword">请输入密码</string>
+    <string name="inputquickCode">请输入验证码</string>
+    <string name="checkPasswordString">请输入6-12位字符</string>
+    <string name="regsterPhone">手机号</string>
+    <string name="quckCode">验证码</string>
+    <string name="getquickCode">获取验证码</string>
+    <string name="requickCode">s后重新获取</string>
+    <string name="passWord">密　码 </string>
+    <string name="comfrimpassWord">确认密码</string>
+    <string name="inputcomfrimpassWord">请输入确认密码</string>
+    <string name="agreeRester">点击注册表示同意注册</string>
+    <string name="thirdlogin">第三方登陆方式</string>
+    <string name="logotitle">IGOO</string>
+    <string name="logotitlesend">改变你们的生活方式</string>
+    <string name="wexlogin">微信</string>
+    <string name="qqlogin">QQ</string>
+    <string name="register">注册</string>
+    <string name="agreemt">用户协议</string>
+    <string name="inputQuickCode">请输入验证码</string>
+    <string name="finishfindback">完成</string>
+    <string name="finishfindtitle">找回密码</string>
+    <string name="next">下一步</string>
+    <string name="inputpassword">输入密码</string>
+    <string name="inputpasswordagain">再次输入密码</string>
+    <string name="system_initializing">系统初始化，请稍候。</string>
+    <string name="InvalidAccount">账号已注册</string>
+    <string name="errorPasswords">密码错误</string>
+    <string name="userNamerror">用户名错误</string>
+    <string name="twopassword">两次密码不一致</string>
+    <string name="modfilypasswordsuccess">恭喜找回密码</string>
+    <string name="errorfiveTimePassword">密码错误次数过多请稍等操作</string>
+    <string name="durationformatshort" translatable="false"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <!-- Do not translate. Duration format for duration >= 1 hour -->
+    <string name="durationformatlong" translatable="false"><xliff:g id="format">%1$d:%3$02d:%5$02d</xliff:g></string>
+
+    <!--原始名称开始-->
+    <string name="done">完成</string>
+    <string name="playlist_is_empty">无光曲列表</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="add_songlight_to_list">添加光曲到“%1$s”</string>
+    <string name="add_songlight_to_favor">将光曲添加到“最爱”</string>
+    <string name="set_light">设置亮度 %1$s%%</string>
+    <string name="set_volume">设置音量 %1$s%%</string>
+    <string name="clear_playlist">清除播放列表</string>
+    <string name="delete_playlist">删除光曲列表</string>
+    <string name="ok">确认</string>
+    <string name="play">播放</string>
+    <string name="times">时长</string>
+    <string name="nums">次数</string>
+    <string name="duration">时长</string>
+    <string name="times_message">该光曲在光曲列表内的播放时长</string>
+    <string name="nums_message">该光曲在光曲列表内的播放次数</string>
+    <string name="playlist"> 播放列表</string>
+    <string name="congzhi"> 请输入充值金额</string>
+    <!--结束-->
+    <string name="edit">编辑</string>
+    <string name="clear">清除</string>
+    <string name="delete">删除</string>
+    <string name="back">返回</string>
+    <string-array name="menuitem">
+        <item>我的设备</item>
+        <item>我的钱包</item>
+        <item>我的消息</item>
+        <item>设置</item>
+    </string-array>
+
+    <string-array name="text_sudoku">
+        <item>爱情</item>
+        <item>聚会</item>
+        <item>育儿</item>
+        <item>睡眠</item>
+        <item>阅读</item>
+        <item>教育</item>
+        <item>起居</item>
+        <item>音乐</item>
+        <item>最爱</item>
+    </string-array>
+
+    <string-array name="text_lamptype">
+        <item>落地灯</item>
+        <item>台灯</item>
+        <item>吸顶灯</item>
+
+    </string-array>
+
+    <attr name="title" format="string" />
+    <attr name="subhead" format="string" />
+    <attr name="imgleft" format="reference" />
+    <attr name="imgright" format="reference" />
+    <attr name="isleftimg" format="boolean" />
+    <!--我的钱包界面文字-->
+    <string name="mywallet">我的钱包</string>
+    <string name="setting">设置</string>
+    <string name="mymessage">我的消息</string>
+    <string name="mydevice">我的设备</string>
+    <string name="loginand">明狐智能生活</string>
+    <string name="update">修改</string>
+
+    <string name="setpaypwd">设置支付密码</string>
+    <string name="updatepaypwd">修改支付密码</string>
+    <string name="resetpaypwd">重置支付密码</string>
+    <string name="recharge">充值</string>
+    <string name="mygift">我的礼品</string>
+    <string name="detail">明细</string>
+    <string name="account_balance">账户余额</string>
+    <string name="yuan">￥</string>
+    <string name="yuan_chinese">元</string>
+    <string name="exchange_time">兑换日期：</string>
+    <string name="exchange_now">立\n即\n兑\n换</string>
+    <string name="exchange_had">已\n经\n兑\n换</string>
+    <string name="exchange_fail">已\n经\n失\n效</string>
+    <string name="amount_money">金额</string>
+    <string name="input_amount">请输入金额</string>
+    <string name="choose_pay">选择充值方式</string>
+    <string name="alipay">支付宝支付</string>
+    <string name="wechatpay">微信支付</string>
+    <string name="paypalpay">贝宝支付</string>
+    <string name="confirm">确认</string>
+    <string name="inputpaypwd">输入支付密码</string>
+    <string name="inputpaypwd_again">再次输入支付密码</string>
+    <string name="setpwd_complete">设置完成</string>
+    <string name="setpwd_fail">两次密码不一致,请重新输入</string>
+    <string name="phone_number">手机号</string>
+    <string name="identifying_code">验证码</string>
+    <string name="get_identifying_code">获取验证码</string>
+    <string name="reget_identifying_code">点击重新获取</string>
+    <string name="next_step">下一步</string>
+    <string name="bind_phone">绑定手机号</string>
+    <string name="sure">确定</string>
+    <string name="find_pwd">找回密码</string>
+    <string name="load">加载更多</string>
+    <!--个人信息-->
+    <string name="personal_message">个人信息</string>
+    <string name="avatar">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="lamp_name_update">名称修改</string>
+    <string name="gender">性别</string>
+    <string name="age">年龄</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="save">保存</string>
+    <string name="tips">内容不能为空</string>
+    <string name="tips_age">请输入正确的年龄</string>
+    <string name="test_phone">400-089-8016</string>
+    <string name="test_age">25</string>
+    <string name="test_date">2017.03.01-201706.03</string>
+    <string name="test_name">司杏</string>
+    <string name="choose_avatar">请选择以下作为头像</string>
+    <string name="album">从手机相册选择</string>
+    <string name="photograph">拍照</string>
+    <string name="cancel">取消</string>
+    <!--设置界面-->
+    <string name="about">关于</string>
+    <string name="text_loading">搜索中,请稍候...</string>
+    <string name="version_update">版本更新</string>
+    <string name="customer_phone">客服电话</string>
+    <string name="frequently_questions">常见问题</string>
+    <string name="feedback">意见反馈</string>
+    <string name="share_friend">推荐给好友</string>
+    <string name="logoff">退出登陆</string>
+    <string name="cellphone">400-098-8016</string>
+    <string name="version_name">1.0.0</string>
+    <string name="wechat">微信</string>
+    <string name="wechat_friends">朋友圈</string>
+    <string name="qq">QQ</string>
+    <string name="qqzone">QQ空间</string>
+    <string name="share_to_friend">分享给好友</string>
+    <string name="tips_version_update">有可用版本，是否更新</string>
+    <string name="tips_feedback">感谢您给我们提出宝贵意见</string>
+    <string name="tips_please_input">请输入</string>
+    <string name="submit">提交</string>
+    <string name="version">版本1.1</string>
+    <string name="newtwrookaddress">官方网址：www.igoo.com</string>
+    <string name="telephone">客服电话：400-098-8916</string>
+    <string name="introduce">一款以爱情为主题的智能灯软件，为爱而生！</string>
+    <!--我的设备-->
+    <string name="floor_lamp">落地灯</string>
+    <string name="desk_lamp">台灯</string>
+    <string name="top_lamp">吸顶灯</string>
+    <string name="add_device">添加设备</string>
+    <string name="search_device">搜索设备</string>
+    <string name="no_search_device">没有搜索到任何设备</string>
+    <string name="recent_use">最近用过的</string>
+    <string name="music_lamp">音乐智能灯</string>
+    <string name="love_type">IGOO Love[L3f]</string>
+    <string name="contact">连接</string>
+    <string name="input_wifi_pwd">请输入WIFI密码</string>
+    <string name="keep_wifi_pwd">记住密码</string>
+    <string name="change_wifi">切换wifi</string>
+    <string name="contact_wifi">添加设备</string>
+    <string name="start_bind">开始连接</string>
+    <string name="deltedevice">删除</string>
+    <string name="account_details">账户明细</string>
+    <string name="tips_wifi">请您确认当前的WIFI或使用其他WIFI绑定</string>
+    <string name="tips_wifi_empty">wifi密码不能为空</string>
+    <string name="tips_search">正在搜索设备</string>
+    <string name="tips_listen">请确认您的设备处于监听状态</string>
+    <string name="complete">完成</string>
+    <string name="contact_success">连接成功</string>
+    <string name="tips_contact">请连接wifi</string>
+    <string name="lamp_detatl">设备详情</string>
+    <string name="lamp_type">型号：L7f</string>
+    <string name="lamp_name">落地灯</string>
+    <string name="bind_date">绑定日期：2017-03-05</string>
+    <string name="remark_name">备注名称</string>
+    <string name="after_service">售后服务</string>
+    <string name="lamp_version">固件版本</string>
+    <string name="lamp_version_name">1.0.0</string>
+    <string name="connected">已连接</string>
+    <string name="search">搜索</string>
+    <string name="search_get_device">搜索到的设备</string>
+    <!--主页面-->
+    <string name="text_light_on">开灯</string>
+    <string name="text_light_light">亮度</string>
+    <string name="text_light_vol">音量</string>
+    <string name="text_light_off">关灯</string>
+    <string name="text_light_night">夜灯</string>
+    <string name="text_light_alarm">定时</string>
+    <!--我的消息界面-->
+    <string name="my_message">我的消息</string>
+    <string name="delete_data">是否删除此条数据</string>
+    <string name="message_details">IGOO助手</string>
+    <!--点击图标进入主页面-->
+    <string name="new_text">新</string>
+    <string name="type">分类</string>
+    <string name="quick_list">快捷列表</string>
+    <string name="optional_list">自选列表</string>
+    <string name="light_song">光曲</string>
+    <string name="text_favorite">最爱</string>
+    <string name="test_song">最爱歌曲</string>
+    <string name="test_song_count">5首歌曲</string>
+    <string name="rename">重命名</string>
+    <string name="tips_input_listname">请输入列表名称</string>
+    <string name="music_play_count">播放次数</string>
+    <string name="music_play_time">播放时长</string>
+
+    <!--定时设置页面-->
+    <string name="time_setting">光曲定时设置</string>
+    <string name="edit_time_setting">编辑定时</string>
+    <string name="add_time_setting">添加定时</string>
+    <string name="delete_time_setting">是否删除此定时?</string>
+    <string name="repeat">重复</string>
+    <string name="top_edit">编辑</string>
+    <string name="only_one">一律不</string>
+    <string name="light_tune">播放光曲</string>
+    <string name="sleep">小睡</string>
+    <string name="song_choose">光曲选择</string>
+    <string name="turn_off">关灯</string>
+    <string name="brightness_volume">亮度和音量</string>
+    <string name="brightness">亮度</string>
+    <string name="voice">音量</string>
+    <string name="manually">手动设置</string>
+    <string name="sunday">周日</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="everyday">每天</string>
+    <string name="light_music">璀璨霓虹</string>
+
+
+    <string name="light_title">Brightness</string>
+    <string name="light_value">"%1$s%%"</string>
+    <string name="volume_title">"Volume</string>
+    <string name="volume_value">"%1$s%%"</string>
+    <string name="bright_volume_value">"%1$s%% %2$s%%"</string>
+    <string name="bright_volume_item">"Brightness:%1$s%% Volume:%2$s%%"</string>
+
+    <string name="Summary">综合</string>
+    <string name="Reading">阅读</string>
+    <string name="Sleeping">睡眠</string>
+    <string name="Dining">就餐</string>
+    <string name="Education">教育</string>
+    <string name="Partying">聚会</string>
+    <string name="Romance">爱情</string>
+    <string name="Music">音乐</string>
+</resources>

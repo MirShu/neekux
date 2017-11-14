@@ -1,0 +1,83 @@
+<resources>
+    <dimen name="menutitlesize">17sp</dimen>
+    <dimen name="logotitlesize">16sp</dimen>
+    <dimen name="thirdlogin">15sp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_height">60dp</dimen>
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="padding_width">12dp</dimen>
+    <!--边距-->
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+
+    <!--占位-->
+    <dimen name="space_50dp">50dp</dimen>
+    <dimen name="space_5dp">5dp</dimen>
+    <!--字体大小-->
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_11sp">11sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_24sp">30sp</dimen>
+    <!--控件大小-->
+    <dimen name="view_size_1dp">1dp</dimen>
+    <dimen name="view_size_2dp">2dp</dimen>
+    <dimen name="view_size_4dp">4dp</dimen>
+    <dimen name="view_size_6dp">6dp</dimen>
+    <dimen name="view_size_8dp">8dp</dimen>
+    <dimen name="view_size_10dp">10dp</dimen>
+    <dimen name="view_size_12dp">12dp</dimen>
+    <dimen name="view_size_15dp">15dp</dimen>
+    <dimen name="view_size_16dp">16dp</dimen>
+    <dimen name="view_size_24dp">24dp</dimen>
+    <dimen name="view_size_28dp">28dp</dimen>
+    <dimen name="view_size_32dp">32dp</dimen>
+    <dimen name="view_size_36dp">36dp</dimen>
+    <dimen name="view_size_48dp">48dp</dimen>
+    <dimen name="view_size_50dp">50dp</dimen>
+    <dimen name="view_size_55dp">55dp</dimen>
+    <dimen name="view_size_60dp">60dp</dimen>
+    <dimen name="view_size_72dp">72dp</dimen>
+    <dimen name="view_size_80dp">80dp</dimen>
+    <dimen name="view_size_120dp">120dp</dimen>
+    <!--线宽-->
+    <dimen name="line_width">1px</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+
+    <!-- height of a normal list item in edit playlist mode -->
+    <dimen name="normal_height">52dp</dimen>
+    <!-- height of an expanded list item in edit playlist mode -->
+    <dimen name="expanded_height">94dp</dimen>
+    <dimen name="alarm_label_padding">8dip</dimen>
+    <dimen name="workspace_cell_width">89dp</dimen>
+    <dimen name="workspace_cell_height">89dp</dimen>
+    <dimen name="workspace_app_cell_height">88dp</dimen>
+    <dimen name="workspace_cell_image_width">73dp</dimen>
+    <dimen name="workspace_cell_image_height">73dp</dimen>
+    <dimen name="workspace_app_cell_image_width">76dp</dimen>
+    <dimen name="workspace_app_cell_image_height">76dp</dimen>
+    <dimen name="workspace_gridview_margintop">20dp</dimen>
+    <dimen name="workspace_app_gridview_margintop">5dp</dimen>
+    <dimen name="workspace_gridview_horizontalspace">17dp</dimen>
+    <dimen name="workspace_gridview_verticalalspace">8dp</dimen>
+
+    <!--顶布局高度-->
+    <dimen name="topview_height">48dp</dimen>
+    <dimen name="bottom_height">48dp</dimen>
+    <!--主页面下方控制区字体大小-->
+    <dimen name="main_control_text_size">15sp</dimen>
+    <dimen name="song_img_height">48dp</dimen>
+</resources>

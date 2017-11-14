@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\meekux\\meekuxDemo\\NewMeekux\\espTouch_Demo\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\meekux\\meekuxDemo\\NewMeekux\\espTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,10,11,12,13,14,15,16,17,18,19,20,21,28",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,257,315,371,424,484,533,585,638,712,779,828,883,1174",
+                        "endLines": "9,10,11,12,13,14,15,16,17,18,19,20,27,30",
+                        "endColumns": "20,57,55,52,59,48,51,52,73,66,48,54,12,12",
+                        "endOffsets": "252,310,366,419,479,528,580,633,707,774,823,878,1169,1329"
+                    }
+                }
+            ]
+        }
+    ]
+}

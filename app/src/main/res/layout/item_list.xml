@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel_rl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/delete_tv"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/delete" />
+
+        <ImageView
+            android:id="@+id/iv_light_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_light_circle"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/meekux_xd"
+            android:button="@null" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/channel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="灯泡7"
+        android:textColor="@color/white"
+        android:textSize="11sp" />
+</LinearLayout>
+
+

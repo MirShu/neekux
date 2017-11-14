@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:igoo="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/allcontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/bigbackgroudn">
+
+
+            <com.bigkoo.convenientbanner.ConvenientBanner
+                android:id="@+id/main_activity_vp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_above="@id/bottomlayout" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="首页"
+                    android:textSize="20dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/main_activity_topview_swich"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/icon_drawer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/icon_drawer" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/main_activity_topview_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_17sp" />
+            </RelativeLayout>
+
+            <meekux.grandar.com.meekuxpjxroject.view.ReboundScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/main_activity_vp"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/main_activity_linearlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bigroombackground"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/alltextviewsn"
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/allroomtextview"
+                            android:clickable="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:clickable="true"
+                                android:ems="1"
+                                android:gravity="center_vertical"
+                                android:text="@string/showroom"
+                                android:textColor="@color/white"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:paddingTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/allroomopen"
+                                android:layout_width="match_parent"
+                                android:layout_height="44dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/allroomloff" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"
+                                android:text="开灯" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:paddingTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/allroomclose"
+                                android:layout_width="match_parent"
+                                android:layout_height="44dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/allroomlightopenoroff" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"
+                                android:text="关灯" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/allroomlight"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:paddingTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/allroombritness"
+                                android:layout_width="match_parent"
+                                android:layout_height="44dp"
+                                android:src="@mipmap/sunlinghallroom" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"
+                                android:text="亮度" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:orientation="vertical"
+                            android:paddingTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/sound"
+                                android:layout_width="match_parent"
+                                android:layout_height="44dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@mipmap/songallroom" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"
+                                android:text="音量" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/main_activity_linearlayout"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/main_activity_linearlayo"
+                                android:layout_width="match_parent"
+                                android:layout_height="75dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/bigroombackground"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:id="@+id/lefttextview0"
+                                    android:layout_width="30dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/smallroompresstextview">
+
+                                    <TextView
+                                        android:id="@+id/homegradviewtextvie"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:ems="1"
+                                        android:text="主卧室"
+                                        android:textColor="@color/white"
+                                        android:textSize="11sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/openlight0"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/opendrabl"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@drawable/allroomloff" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="开灯" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/closelight0"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/clsedrable0"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@drawable/allroomlightopenoroff" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="关灯" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/light0"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@mipmap/sunlinghallroom" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="亮度" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/song0"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/imageView0"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@mipmap/songallroom" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="音量" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/main_activity_linearlayout1"
+                                android:layout_width="match_parent"
+                                android:layout_height="75dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/bigroombackground"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:id="@+id/lefttextview1"
+                                    android:layout_width="30dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/smallroompresstextview">
+
+                                    <TextView
+                                        android:id="@+id/homegradviewtextview1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:ems="1"
+                                        android:text="客厅"
+                                        android:textColor="@color/white"
+                                        android:textSize="11sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/openlight1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/opendrable1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@drawable/allroomloff" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="开灯" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/closelight1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/clsedrable1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@drawable/allroomlightopenoroff" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="关灯" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/light1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@mipmap/sunlinghallroom" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="亮度" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/song1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/imageView1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@mipmap/songallroom" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="音量" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/main_activity_linearlayout2"
+                                android:layout_width="match_parent"
+                                android:layout_height="75dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/bigroombackground"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:id="@+id/lefttextview2"
+                                    android:layout_width="30dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/smallroompresstextview">
+
+                                    <TextView
+                                        android:id="@+id/lefttextvie"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:ems="1"
+                                        android:text="餐厅"
+                                        android:textColor="@color/white"
+                                        android:textSize="11sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/openlight2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/opendrable"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@drawable/allroomloff" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="开灯" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/closelight2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/clsedrable"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@drawable/allroomlightopenoroff" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="关灯" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/light2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@mipmap/sunlinghallroom" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="亮度" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/song2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:orientation="vertical"
+                                    android:paddingTop="5dp">
+
+                                    <ImageView
+                                        android:id="@+id/imageView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="44dp"
+                                        android:src="@mipmap/songallroom" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="3dp"
+                                        android:text="音量" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </meekux.grandar.com.meekuxpjxroject.view.ReboundScrollView>
+        </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

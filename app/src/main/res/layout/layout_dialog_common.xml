@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog_bg_corner"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/common_dialog_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textSize="@dimen/text_size_16sp"
+        android:textColor="@color/whiteTitleColor"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/lineColor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/common_dialog_text_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_17sp"
+            android:background="@drawable/selector_dialog_cancel"
+            android:gravity="center"
+            android:text="@string/cancel" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor" />
+
+        <TextView
+            android:id="@+id/common_dialog_text_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_17sp"
+            android:background="@drawable/selector_dialog_confirm"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@color/green" />
+    </LinearLayout>
+
+</LinearLayout>

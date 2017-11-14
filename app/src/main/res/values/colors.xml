@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--=============================MeekuxColor==============================-->
+    <!--用于个别重要标题内容,已填写内容和重要叙述内容-->
+    <color name="whiteTitleColor">#1d1c1c</color>
+    <!--用于填写名称和个别次级叙述内容-->
+    <color name="whiteTextColor">#654f76</color>
+    <color name="whitePressColor">#f6f6f6</color>
+    <!--用于不重要的叙述内容内容-->
+    <color name="whiteSubtextColor">#9b94a0</color>
+    <!--主色调，用于状态栏，导航栏，标签栏-->
+    <color name="themecolor">#38383c</color>
+    <!--用于填写名称和个别次级叙述内容-->
+    <color name="whiteLineColor">#cccccc</color>
+    <!--用于选择内容的颜色-->
+    <color name="checkColor">#d29f59</color>
+    <!--用于选择内容的颜色-->
+    <color name="backgroundColor">#260f37</color>
+    <!--用于首页颜色-->
+    <color name="homegraidviewColor">#2f1046</color>
+    <!--用于首页颜色-->
+    <color name="closeopenbutton">#402058</color>
+    <!--=============================藏青色背景========================================-->
+    <!--用于个别重要标题内容，已填写内容和重要的叙述性内容导航字体歌曲一级列表-->
+    <color name="blackTextColor">#333333</color>
+    <!--用于填写名称和个别次级叙述内容-->
+    <color name="textColor">#999999</color>
+    <!--用于不重要的叙述性内容，如歌曲列表下的标签栏，歌曲二级列表-->
+    <color name="subTextColor">#999999</color>
+    <!--用于主色调，用于导航背景-->
+    <color name="colorLove">#eeeeee</color>
+    <!--用于强调色，用于按钮背景色及连接字体-->
+    <color name="greencolor">#58788e</color>
+    <!--用于分割线颜色-->
+    <color name="lineColor">#dddddd</color>
+    <!--用于输入框背景色-->
+    <color name="inputBgColor">#f0f0f0</color>
+    <!--用于点击反馈色-->
+    <color name="pressColor">#a7d0f7</color>
+    <!--用于歌曲列表下的标签背景颜色-->
+    <color name="songBgColor">#1d2541</color>
+    <!--用于歌曲列表下的标签背景颜色-->
+    <color name="balckpress">#a7d0f7</color>
+    <!--用于主色调，用于导航背景-->
+    <color name="colorLovedaohang">#1d2541</color>
+    <color name="grey_white">#B3ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="top_bg_color">#eeeeee</color>
+    <color name="titlecolor">#ffffff</color>
+    <color name="linegray">#dddddd</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#eeeeee</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="graytitle">#999999</color>
+
+    <!--用于强调色，用于按钮背景色及连接字体-->
+    <color name="bluecolor">#207993</color>
+    <color name="colorLoveShadow">#eeeeee</color>
+    <color name="main_bg_color">#eeeeee</color>
+    <color name="green">#58788e</color>
+    <color name="green_icon">#429934</color>
+    <color name="song_item_dri">#3e4b76</color>
+    <color name="red">#DF3234</color>
+    <color name="hui">#999999</color>
+    <color name="bgColor">#eeeeee</color>
+    <!--半透明白色-->
+    <color name="transparent_white">#22ffffff</color>
+    <color name="transparent">#ffffffff</color>
+    <color name="main_item_bg">#00333333</color>
+    <color name="main_item_bg_shadow">#eeeeee</color>
+    <color name="province_line_border">#D0D0D0</color>
+    <color name="gray">#D6D4D4</color>
+    <color name="grayTow">#748fa1</color>
+    <color name="grayThree">#8E8E8F</color>
+    <color name="grayFour">#585858</color>
+    <color name="blue">#00A0E9</color>
+    <color name="lightBlack">#424242</color>
+    <color name="black">#000000</color>
+    <color name="subTitleColor">#FFFFFF</color>
+    <color name="TabBgColor">#000000</color>
+    <color name="tab_indicator_text">#FFFFFF</color>
+    <color name="tab_content">#FFFFFF</color>
+    <color name="half_transparent">#e0000000</color>
+    <color name="summary_normal_text_color">#385487</color>
+    <color name="summary_select_text_color">#ffffff</color>
+    <color name="item_normal_text_color">#000000</color>
+    <color name="item_select_text_color">#626262</color>
+    <color name="color_00000000">#00000000</color>
+</resources>
